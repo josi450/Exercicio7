@@ -1,0 +1,20 @@
+public class DisciplinaPos extends Disciplina {
+  
+    private String economia;
+    
+    public DisciplinaPos (String cd, String e){
+        super (cd);
+        this.setEconomia (e);
+    }
+
+    public String getEconomia() {
+        return economia;
+    }
+
+    public void setEconomia(String e) {
+        this.economia = e;
+    }
+    
+    
+    
+}
