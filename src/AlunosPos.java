@@ -1,13 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+public class AlunosPos extends Aluno {
+    
+    private String area;
+    
+    public AlunosPos (String n, String m, String a){
+        super (n, m);
+        this.setArea (a);
+    }
 
-/**
- *
- * @author josia
- */
-public class AlunosPos {
+    public String getArea() {
+        return area;
+    }
 
+    public void setArea(String a) {
+        this.area = a;
+    }
+    
+    
 }
+
