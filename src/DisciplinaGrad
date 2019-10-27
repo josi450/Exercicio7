@@ -1,0 +1,20 @@
+public class DisciplinaGrad extends Disciplina {
+  
+    private String historia;
+    
+    public DisciplinaGrad (String cd,String a){
+        super (cd);
+        this.setHistoria (a);
+    }
+
+    public String getHistoria() {
+        return historia;
+    }
+
+    public void setHistoria(String historia) {
+        this.historia = historia;
+    }
+    
+    
+    
+}
