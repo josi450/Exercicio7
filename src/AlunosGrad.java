@@ -1,13 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+public class AlunosGrad extends Aluno {
+    
+    private String periodo;
+    
+    public AlunosGrad (String n, String m, String p){
+        super (n, m);
+        this.setPeriodo (p);
+    }
 
-/**
- *
- * @author josia
- */
-public class AlunosGrad {
+    public String getPeriodo() {
+        return periodo;
+    }
 
+    public void setPeriodo(String periodo) {
+        this.periodo = periodo;
+    }
+    
+    
 }
