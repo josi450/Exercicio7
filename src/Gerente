@@ -1,0 +1,19 @@
+public class Gerente extends Funcionarios {
+    
+    private String nomeDep;
+
+    public Gerente(String n, String m, String nd){
+        super(n, m);
+        this.setNomedep(nd);
+    }
+    
+    
+    public String getNomedep() {
+        return nomeDep;
+    }
+
+    public void setNomedep(String nomeDep) {
+        this.nomeDep = nomeDep;
+    }
+ 
+}
