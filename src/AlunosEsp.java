@@ -1,13 +1,23 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/**
- *
- * @author josia
- */
-public class AlunosEsp {
+  public class AlunoEsp extends AlunoGraduacao {
+    
+     private String formacao;
+    
+    public AlunoEsp (String n, String m, String p, String f){
+        super (n, m, p );
+        this.setFormacao (f);
+    }
 
+    public String getFormacao() {
+        return formacao;
+    }
+
+    public void setFormacao(String f) {
+        this.formacao = f;
+    }
+    
+    
 }
+    
+
+
