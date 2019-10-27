@@ -1,0 +1,21 @@
+public class AssistenteAdm extends Assistente {
+    
+    private double adcnoturno;
+
+    public AssistenteAdm (String n, String m, String nd, Gerente s, double an){
+        super (n, m, nd, s);
+        this.setAdcnoturno(an);
+        
+    } 
+    
+    public double getAdcnoturno() {
+        return adcnoturno;
+    }
+
+    public void setAdcnoturno(double adcnoturno) {
+        this.adcnoturno = adcnoturno;
+    }
+    
+    
+    
+}
