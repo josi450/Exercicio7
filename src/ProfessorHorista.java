@@ -1,19 +1,17 @@
 
-public class ProfessorHorista {
+public class ProfessorHorista extends ProfessorIntegral {
+    
+   
 
-protected float salario_hora;
-protected int total_horas;
-public ProfessorHorista(String n,String m,int i,int h, float vs)
-{
-super(n,m,i);
-if (h > 0) total_horas = h;
-if (vs > 0) salario_hora = vs;
+    public ProfessorHorista (String n, int i, int m, int h){
+        super (n, i, m, h);
+       
+    }
+    
+        
+    public void salarioHorista (double salar){
+        salar *= this.getHoras();
+    }
+    
 }
-public float retornaSalario()
-{
-float salario_base = salario_hora * total_horas;
-return salario_base - (salario_base * 0.16);
-}
-}
-
 
