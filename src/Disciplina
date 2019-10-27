@@ -1,0 +1,19 @@
+public class Disciplina {
+     
+    private String codDis;
+    
+    public Disciplina (String cd){
+        this.setCoddis (cd);
+    }
+
+    public String getCoddis() {
+        return codDis;
+    }
+
+    public void setCoddis(String cd) {
+        this.codDis = cd;
+    }
+    
+    
+    
+}
