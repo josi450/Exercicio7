@@ -2,9 +2,9 @@ public class DisciplinaGrad extends Disciplina {
   
     private String historia;
     
-    public DisciplinaGrad (String cd,String a){
+    public DisciplinaGrad (String cd,String h){
         super (cd);
-        this.setHistoria (a);
+        this.setHistoria (h);
     }
 
     public String getHistoria() {
