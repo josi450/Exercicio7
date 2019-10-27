@@ -1,13 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/**
- *
- * @author josia
- */
 public class ProfessorRegime {
+private float salario;
+public ProfRegime(String n,String m,int i,float vs)
+{
+super(n,m,i);
+if (vs > 0) salario = vs;
+}
+public float retornaSalario()
+{
+return salario - (salario * 0.16);
+}
 
 }
