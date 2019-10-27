@@ -1,13 +1,30 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author josia
- */
-public class Fornecedor {
-
+public class Fornecedor extends Pessoa {
+    
+    private double valorCred;
+    private double valorDiv;
+    
+    public Fornecedor (String n, String e, String t, double vc, double vd){
+        super (n, e, t);
+        this.setValorCred (vc);
+        this.setValorDiv (vd);
+    }
+    
+    public double getValorCred(){
+        return this.valorCred;
+    }
+    public void setValorCred(double vc){
+        this.valorCred = vc;
+    }
+    
+    public double getValorDiv(){
+        return this.valorDiv;
+    }
+    public void setValorDiv(double vd){
+        this.valorDiv = vd;
+    }
+    
+    public double obterSaldo(){
+        return getValorCred() - getValorDiv();
+    }
+       
 }
