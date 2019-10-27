@@ -1,0 +1,20 @@
+public class Assistente extends Gerente {
+    
+    private Gsupervisor;
+    
+    public Assistente (String n, String m, String nd, Gerente s){
+        super (n, m, nd);
+        this.setGsupervisor(s);
+    }
+
+    public getGsupervisor() {
+        return Gsupervisor;
+    }
+
+    public void setSupervisor(Gsupervisor) {
+        this.supervisor = supervisor;
+    }
+   
+    
+    
+}
