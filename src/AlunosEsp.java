@@ -1,9 +1,9 @@
 
-  public class AlunoEsp extends AlunoGraduacao {
+  public class AlunosEsp extends AlunoGraduacao {
     
      private String formacao;
     
-    public AlunoEsp (String n, String m, String p, String f){
+    public AlunosEsp (String n, String m, String p, String f){
         super (n, m, p );
         this.setFormacao (f);
     }
