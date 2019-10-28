@@ -12,7 +12,7 @@ public class TestaEmpresa {
         System.out.println(aa1.getMatricula());
         System.out.println(g1.getNomedep());
         System.out.println(g1.getNome());
-        System.out.println(aa1.getAdnoturno());
+        System.out.println(aa1.getAdcnoturno());
         
         System.out.println(at1.getNome());
         System.out.println(at1.getMatricula());
