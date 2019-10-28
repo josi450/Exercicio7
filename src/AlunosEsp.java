@@ -1,5 +1,5 @@
 
-  public class AlunosEsp extends AlunoGraduacao {
+  public class AlunosEsp extends AlunosGrad {
     
      private String formacao;
     
